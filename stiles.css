@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat";
+}
+.sp{
+    
+    position: fixed;
+    width: 22%;
+    height: 100vh;
+    text-align: center;
+    font-size: 1.8vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;  
+    padding-right: 90px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+    color: dimgrey;
+}
+a:hover{
+    color: black;
+    transition: 0.4s;
+}
+.newsletter{
+
+    padding-top: 22vh;
+}
+.lispace1{
+    padding-top: 0.5vh;
+}
+.img1{
+    margin-top: 10vh;
+    background-image: url(author.jpg);
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+   border-radius: 50%;
+   background-position: center;
+   margin-left: 25%;
+}
+section{
+    display: flex;
+    margin-left:20%;
+    height: 100vh;
+}
+.louie{
+    font-size: 2.8vh;
+    color: black;
+    height: 5vh;
+}
+.secundario{
+    height: 100vh;
+    flex: 1;
+}
+.primario{
+    background-image:url(author.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: black;
+    flex: 1;
+}
+li {
+    margin-bottom: 10px;
+}
+.fundo{ 
+    position: absolute;
+    padding-top: 18vh;
+    color: #ededed;
+    font-size: 5.6vh;
+    z-index: -1 ;
+}
+.hello{
+    padding-top: 21vh;
+    font-size: 2.5vh;
+    z-index: 1;
+    color: #bfbfbf;
+    padding-left: 4vh;
+}
+.louie{
+    font-weight: 800;
+    font-size: 4vh;
+    color: black;
+    padding-left: 4vh;
+    padding-bottom: 2vh;
+    display: inline-block;
+}
+.txt{
+    font-weight: 500;
+    color: #9b9797;
+    font-size: 2.1vh;
+    padding-left: 4vh;
+}
+.assinatura{
+    padding-top: 5vh;
+    font-size: 4vh;
+    padding-left: 4vh;
+    font-family: "Herr Von Muellerhoff";
+}
+.profissao{
+    color: #ccb78f
+}
